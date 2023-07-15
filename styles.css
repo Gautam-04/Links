@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+h1{
+    font-family: 'Lugrasimo', cursive;
+}
+
+body {
+    background-image: url(./Images/az-subtle.png);
+    background-color: #f5f6f6;
+    background-position: center;
+}
+
+section {
+    z-index: 3;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+section:hover {
+    box-shadow: 0 0 5px #f7df1e, 0 0 25px #f7df1e, 0 0 50px #f7df1e, 0 0 200px #f7df1e;
+}
+
+p:hover {
+    box-shadow: inset -10.5em 0 0 0 #f7df1e, inset 10.5em 0 0 0 #f7df1e;
+}
